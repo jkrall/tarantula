@@ -24,7 +24,7 @@ class Relevance::Tarantula::Crawler
     @skip_uri_patterns = [
       /^javascript/,
       /^mailto/,
-      /^http/,
+      /^http:/,
     ]
     self.transform_url_patterns = [
       [/#.*$/, '']

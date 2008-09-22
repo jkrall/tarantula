@@ -3,8 +3,8 @@ require 'forwardable'
 TARANTULA_ROOT = File.expand_path(File.join(File.dirname(__FILE__), "../.."))
 
 require 'erb'
-gem 'actionpack'
-gem 'activesupport'
+#gem 'actionpack'
+#gem 'activesupport'
 require 'active_support'
 require 'action_controller'
 # bringing in xss-shield requires a bunch of other dependencies
